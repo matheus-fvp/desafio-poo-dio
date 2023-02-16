@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc0b6-6f07-4372-87b9-6486839900c4" name="Changes" comment="add README.md">
-      <change afterPath="$PROJECT_DIR$/src/edu/matheusfvp/desafiopoo/dominio/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/matheusfvp/desafiopoo/dominio/Mentoria.java" afterDir="false" />
+    <list default="true" id="eeecc0b6-6f07-4372-87b9-6486839900c4" name="Changes" comment="add Curso.java and Mentoria.java">
+      <change afterPath="$PROJECT_DIR$/src/edu/matheusfvp/desafiopoo/dominio/Conteudo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/matheusfvp/desafiopoo/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/matheusfvp/desafiopoo/dominio/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/matheusfvp/desafiopoo/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/matheusfvp/desafiopoo/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +37,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -79,12 +80,20 @@
       <option name="project" value="LOCAL" />
       <updated>1676576484553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Curso.java and Mentoria.java">
+      <created>1676578026804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676578026804</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
+    <MESSAGE value="add Curso.java and Mentoria.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Curso.java and Mentoria.java" />
   </component>
 </project>
