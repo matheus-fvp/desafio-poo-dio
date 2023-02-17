@@ -15,6 +15,8 @@ public class Bootcamp {
     private Set<Dev> devsInscritos = new HashSet<>();
     private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
+    private Forum forum = new Forum();
+
     public String getNome() {
         return nome;
     }
@@ -45,6 +47,10 @@ public class Bootcamp {
 
     public Set<Conteudo> getConteudos() {
         return conteudos;
+    }
+
+    public Forum getForum() {
+        return forum;
     }
 
     @Override

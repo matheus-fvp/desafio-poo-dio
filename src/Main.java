@@ -49,6 +49,16 @@ public class Main {
         System.out.println("Conteudos Inscritos Pedro: " + devPedro.getConteudosConcluidos());
         System.out.println("Xp: " + devPedro.calcularTotalXp());
 
+        System.out.println("Forum");
+        Topico topico = new Topico();
+        topico.setAssunto("Dificuldade com collections");
+        topico.adicionarTecnologia("Java");
+        topico.adicionarTecnologia("Python");
+        topico.setAutor(devMatheus);
+        topico.setDetalhe("Não entendi a diferença entre ArrayList e LinkedList");
+        bootcamp.getForum().adicionarTopico(topico);
+        bootcamp.getForum().listarTopicos();
+
     }
 
 }
